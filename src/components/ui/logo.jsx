@@ -17,7 +17,7 @@ export default function BrandLogo({ isDarkTheme = false, showSubtitle = false, c
         xmlns="http://www.w3.org/2000/svg"
         className="flex-shrink-0 transition-transform duration-300 hover:scale-[1.03]"
       >
-        <circle cx="50" cy="50" r="46" fill={badgeColor} />
+        {/* <circle cx="50" cy="50" r="46" fill={badgeColor} /> */}
         <text
           x="35"
           y="63"
@@ -43,8 +43,8 @@ export default function BrandLogo({ isDarkTheme = false, showSubtitle = false, c
       </svg>
 
       <div className="flex flex-col tracking-wider">
-        <span className={`text-[19px] font-bold tracking-[0.16em] uppercase font-serif leading-none ${primaryColor}`}>
-          ROY SONS
+        <span className={`text-[30px] font-extrabold uppercase font-sans leading-none ${primaryColor}`}>
+          ROYSONS
         </span>
         {showSubtitle && (
           <span className={`text-[7px] tracking-[0.26em] uppercase font-bold mt-1 ${secondaryColor}`}>
