@@ -25,9 +25,9 @@ export const HEADER_ROUTES = [
   { path: "/about", title: "About Us" },
   { path: "/services", title: "Services" },
   { path: "/projects", title: "Projects" },
-  { path: "/group-companies", title: "Group Companies" },
-  { path: "/careers", title: "Careers" },
-  { path: "/news", title: "News & Updates" },
+  { path: "/group-companies", title: "Group of Companies" },
+  // { path: "/careers", title: "Careers" },
+  // { path: "/news", title: "News & Updates" },
   { path: "/contact", title: "Contact Us" },
 ];
 
@@ -36,7 +36,7 @@ export const FOOTER_QUICK_LINKS = [
   { text: "About Us", destination: "/about" },
   { text: "Services", destination: "/services" },
   { text: "Projects", destination: "/projects" },
-  { text: "Group Companies", destination: "/group-companies" },
+  { text: "Group of Companies", destination: "/group-companies" },
   { text: "Careers", destination: "/careers" },
   { text: "Contact Us", destination: "/contact" },
 ];
