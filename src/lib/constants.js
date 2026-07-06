@@ -26,8 +26,6 @@ export const HEADER_ROUTES = [
   { path: "/services", title: "Services" },
   { path: "/projects", title: "Projects" },
   { path: "/group-companies", title: "Group of Companies" },
-  // { path: "/careers", title: "Careers" },
-  // { path: "/news", title: "News & Updates" },
   { path: "/contact", title: "Contact Us" },
 ];
 
@@ -95,14 +93,32 @@ export const CORPORATE_STATS = [
 ];
 
 export const CORPORATE_HOLDINGS = [
-  { name: "Roy Construction", href: "/company-construction" },
-  { name: "Roy Engineering", href: "/company-engineering" },
-  { name: "Roy Real Estate", href: "/company-realestate" },
-  { name: "Roy Manufacturing", href: "/company-manufacturing" },
-  { name: "Roy Trading", href: "/company-trading" },
-  { name: "Roy Logistics", href: "/company-logistics" },
-  { name: "Roy Technology", href: "/company-technology" },
-  { name: "Roy Ventures", href: "/company-ventures" },
+  { name: "ROYS & ROYS INTERNATIONAL", href: "/company-construction" },
+  { name: "WALTON & MORRIS FOODS", href: "/company-engineering" },
+  { name: "VET VAC PHARMA", href: "/company-realestate" },
+  { name: "ALPHA MATRIX DEFENCE SYSTEM", href: "/company-manufacturing" },
+  { name: "MAX PAK CORPORATION", href: "/company-trading" },
+  { name: "WALTON CONSULTANTS & CONTRACTING", href: "/company-logistics" },
+  { name: "SWISS FARMS", href: "/company-technology" },
+  { name: "NATIONAL GUARD", href: "/company-ventures" },
+  { name: "NEOM CITY CORPORATION", href: "/company-ventures" },
+  { name: "GATEWAY PHARMACEUTICALS CONSULTANTS", href: "/company-ventures" },
+  { name: "SWISS HUT", href: "/company-ventures" },
+  { name: "MAX POWER CORPORATION", href: "/company-ventures" },
+  { name: "INVERSE & UNION TRADING", href: "/company-ventures" },
+  { name: "DESERT DEVELOPMENT & REHABILITATION CORPORATION", href: "/company-ventures" },
+  { name: "SWISS HOMES", href: "/company-ventures" },
+  { name: "DIGITAL ZONING CORPORATION", href: "/company-ventures" },
+  { name: "Pakistan Consultancy Services", href: "/company-ventures" },
+  { name: "PAK JANITORIAL SERVICES", href: "/company-ventures" },
+  { name: "NATIONAL FOOD SERVICES", href: "/company-ventures" },
+  { name: "BIO MAX CORPORATION", href: "/company-ventures" },
+  { name: "NATIONAL AGRICULTURAL CORPORATION", href: "/company-ventures" },
+  { name: "TDRC- THAL DEVELOPMENT & RESEARCH CENTRE", href: "/company-ventures" },
+  { name: "NEOM CITY RECRUITMENT CONSULTANTS", href: "/company-ventures" },
+  { name: "MAX WOOD CORPORATION", href: "/company-ventures" },
+  { name: "GERMAN TECHNOLOGY XPERT- GTX", href: "/company-ventures" },
+  { name: "NATIONAL MINES CORPORATION - NMC", href: "/company-ventures" },
 ];
 
 export const CORPORATE_SERVICES = [
